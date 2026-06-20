@@ -1,0 +1,14 @@
+pandas>=2.0,<3.1
+numpy>=1.26,<2.5
+scikit-learn>=1.4,<1.9
+# xgboost : la sérialisation des modèles (src/model.py) utilise le format
+# natif JSON du booster (portable entre versions majeures), donc cette
+# plage peut rester large sans risque de "flux d'entrée corrompu" au
+# chargement, même si la version d'entraînement diffère de la vôtre.
+xgboost>=2.0,<3.4
+streamlit>=1.32,<2.0
+packaging>=21.0
+plotly>=5.20,<6.9
+joblib>=1.3
+openpyxl>=3.1
+pyarrow>=14.0

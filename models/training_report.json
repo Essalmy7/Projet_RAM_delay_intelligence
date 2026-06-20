@@ -1,0 +1,82 @@
+{
+  "model1_binary": {
+    "best_model": "LogisticRegression",
+    "all_results": {
+      "LogisticRegression": {
+        "accuracy": 0.8948296122209166,
+        "f1": 0.9012141280353201,
+        "precision": 1.0,
+        "recall": 0.8201908588648921,
+        "roc_auc": 0.9458472539022914
+      },
+      "RandomForest": {
+        "accuracy": 0.8948296122209166,
+        "f1": 0.9012141280353201,
+        "precision": 1.0,
+        "recall": 0.8201908588648921,
+        "roc_auc": 0.9471069920800715
+      },
+      "XGBoost": {
+        "accuracy": 0.8895417156286721,
+        "f1": 0.8981029810298103,
+        "precision": 0.9752795762213067,
+        "recall": 0.832245102963335,
+        "roc_auc": 0.9471768393012718
+      }
+    },
+    "test_size": 3404
+  },
+  "model2_regression": {
+    "best_model": "RandomForest",
+    "all_results": {
+      "LinearRegression": {
+        "mae_minutes": 20.997945204532783,
+        "rmse_minutes": 70.70361164395683,
+        "r2_log_scale": 0.5089069469478232
+      },
+      "RandomForest": {
+        "mae_minutes": 20.929246312926118,
+        "rmse_minutes": 70.29814986770562,
+        "r2_log_scale": 0.5144994681281618
+      },
+      "XGBoost": {
+        "mae_minutes": 21.086621527843054,
+        "rmse_minutes": 70.33734488731989,
+        "r2_log_scale": 0.5080391989007311
+      }
+    },
+    "test_size": 1991
+  },
+  "model3_family": {
+    "best_model": "XGBoost",
+    "all_results": {
+      "LogisticRegression": {
+        "accuracy": 0.44128329297820823,
+        "f1_macro": 0.3491668304224705,
+        "f1_weighted": 0.4751183633732384
+      },
+      "RandomForest": {
+        "accuracy": 0.5024213075060533,
+        "f1_macro": 0.3756705593227794,
+        "f1_weighted": 0.5246136785378549
+      },
+      "XGBoost": {
+        "accuracy": 0.559322033898305,
+        "f1_macro": 0.38448591809917965,
+        "f1_weighted": 0.5364653183371104
+      }
+    },
+    "test_size": 1652,
+    "classes": [
+      "ATC",
+      "AUTRES",
+      "AVARIE",
+      "CORRESPONDANCE",
+      "PROGRAMME",
+      "ROTATION",
+      "TECHNIQIE",
+      "TIERS 2",
+      "TRAITEMENT AVION"
+    ]
+  }
+}
