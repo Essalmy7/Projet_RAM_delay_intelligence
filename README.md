@@ -1,17 +1,13 @@
 # RAM Delay Intelligence
 
-<p align="center">
-<img src="assets/readme-banner.svg" alt="RAM Delay Intelligence banner" width="100%" />
-</p>
+![RAM Delay Intelligence banner](assets/readme-banner.svg)
 
-<p align="center">
-<a href="https://github.com/Essalmy7/Projet_RAM_delay_intelligence"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-Repository-181717?logo=github"></a>
-<a href="https://www.streamlit.io/"><img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white"></a>
-<img alt="Python" src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white">
-<img alt="Status" src="https://img.shields.io/badge/Status-Ready%20to%20run-success">
-</p>
+[![GitHub repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/Essalmy7/Projet_RAM_delay_intelligence)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://www.streamlit.io/)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Ready%20to%20run-success)
 
-> Application Streamlit d’analyse et de prédiction de la ponctualité des vols, développée dans le cadre d’un projet académique autour des retards opérationnels et de l’aide à la décision.
+Application Streamlit d’analyse et de prédiction de la ponctualité des vols, développée dans le cadre d’un projet académique autour des retards opérationnels et de l’aide à la décision.
 
 ## Sommaire
 
