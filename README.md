@@ -1,5 +1,22 @@
 # RAM Delay Intelligence
 
+> Application Streamlit d’analyse et de prédiction de la ponctualité des vols, développée dans le cadre d’un projet académique autour des retards opérationnels et de l’aide à la décision.
+
+## Sommaire
+
+- [Présentation générale](#présentation-générale)
+- [Contexte et problématique](#contexte-et-problématique)
+- [Objectifs du projet](#objectifs-du-projet)
+- [Données utilisées](#données-utilisées)
+- [Architecture du projet](#architecture-du-projet)
+- [Structure du dépôt](#structure-du-dépôt)
+- [Fonctionnement du pipeline](#fonctionnement-du-pipeline)
+- [Modules de l’application Streamlit](#modules-de-lapplication-streamlit)
+- [Filtres interactifs](#filtres-interactifs)
+- [Design de l’application](#design-de-lapplication)
+- [Lancement local](#lancement-local)
+- [Licence](#licence)
+
 ## Présentation générale
 
 RAM Delay Intelligence est une application d’analyse et de prédiction de la ponctualité des vols, développée autour d’une problématique opérationnelle liée au suivi des retards, à la fiabilisation des motifs de retard et à l’aide à la décision.
@@ -721,6 +738,18 @@ Ce projet met en évidence des compétences en :
 
 ---
 
+## Lancement local
+
+Pour lancer l’application en local :
+
+```bash
+python -m streamlit run app/app.py
+```
+
+## Licence
+
+Aucune licence n’a encore été définie pour ce dépôt.
+
 ## Valeur académique et professionnelle
 
 Ce projet illustre une démarche complète de data science appliquée à une problématique opérationnelle réelle.
@@ -743,5 +772,4 @@ Il est cohérent avec un profil orienté data science appliquée, pilotage de pe
 Zakaria Es-Salmy
 
 Projet académique appliqué à l’analyse de la ponctualité des vols et à l’aide à la décision opérationnelle.
-#   R A M _ d e l a y _ i n t e l l i g e n c e  
  
