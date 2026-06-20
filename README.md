@@ -779,4 +779,3 @@ Il est cohérent avec un profil orienté data science appliquée, pilotage de pe
 Zakaria Es-Salmy
 
 Projet académique appliqué à l’analyse de la ponctualité des vols et à l’aide à la décision opérationnelle.
- 
